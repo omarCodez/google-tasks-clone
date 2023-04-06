@@ -1,0 +1,21 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/fonts/Roboto_Flex/OFL.txt",
+      "sha1": "cf518264630869e356116eabe5ceabbaca2b34b7"
+    },
+    {
+      "path": "src/assets/fonts/Roboto_Flex/README.txt",
+      "sha1": "645bd13dbd700d3f0132d42928e954551bcca489"
+    },
+    {
+      "path": "src/assets/fonts/Roboto_Flex/RobotoFlex-VariableFont_GRAD,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,opsz,slnt,wdth,wght.ttf",
+      "sha1": "f30190167869706b86e1989e91be60dbb98c5aa5"
+    },
+    {
+      "path": "src/assets/fonts/Roboto_Flex/static/RobotoFlex/RobotoFlex-Regular.ttf",
+      "sha1": "b54dc975b2d38cbcc4731d4e09c0366cc2e5d586"
+    }
+  ]
+}
