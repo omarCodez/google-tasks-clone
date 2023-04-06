@@ -18,7 +18,7 @@ const SplashScreen = () => {
           Keep track of important things you need to get done in one place.
         </Text>
         <TouchableOpacity
-          className="my-3 bg-blue-600 rounded-3xl"
+          className="my-3 bg-blue-600 rounded-3xl my-4"
           activeOpacity={0.5}>
           <Text className="text-lg  font-normal  text-white px-8 py-2.5 ">
             Get Started
