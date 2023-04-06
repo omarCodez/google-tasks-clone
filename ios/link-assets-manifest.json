@@ -2,12 +2,32 @@
   "migIndex": 1,
   "data": [
     {
-      "path": "src/assets/fonts/Roboto_Flex/OFL.txt",
-      "sha1": "cf518264630869e356116eabe5ceabbaca2b34b7"
+      "path": "src/assets/fonts/Alkatra/Alkatra-VariableFont_wght.ttf",
+      "sha1": "b82c5927d2c0898ec0a279b85c4488fd8c120c22"
     },
     {
-      "path": "src/assets/fonts/Roboto_Flex/README.txt",
-      "sha1": "645bd13dbd700d3f0132d42928e954551bcca489"
+      "path": "src/assets/fonts/Alkatra/OFL.txt",
+      "sha1": "80537c9c0e43dc9e6937f4a3f97e8dab0fa135c2"
+    },
+    {
+      "path": "src/assets/fonts/Alkatra/README.txt",
+      "sha1": "c5a6efc77b12d9ea986b58f529e5add7b3b21b2c"
+    },
+    {
+      "path": "src/assets/fonts/Alkatra/static/Alkatra-Bold.ttf",
+      "sha1": "091f359796a11546e5492aeafefd582b1c6267b7"
+    },
+    {
+      "path": "src/assets/fonts/Alkatra/static/Alkatra-Medium.ttf",
+      "sha1": "546c105063c2530c3115a02f4fdcfddb6ebdd304"
+    },
+    {
+      "path": "src/assets/fonts/Alkatra/static/Alkatra-Regular.ttf",
+      "sha1": "4d69ea1bbf0cb4f277177046543a595d6401802b"
+    },
+    {
+      "path": "src/assets/fonts/Alkatra/static/Alkatra-SemiBold.ttf",
+      "sha1": "bf71b4bfa4ff217e8bf72dd1efe56d46d5860a27"
     },
     {
       "path": "src/assets/fonts/Roboto_Flex/RobotoFlex-VariableFont_GRAD,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,opsz,slnt,wdth,wght.ttf",

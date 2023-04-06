@@ -55,6 +55,11 @@
 	<array>
 		<string>RobotoFlex-VariableFont_GRAD,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,opsz,slnt,wdth,wght.ttf</string>
 		<string>RobotoFlex-Regular.ttf</string>
+		<string>Alkatra-VariableFont_wght.ttf</string>
+		<string>Alkatra-Bold.ttf</string>
+		<string>Alkatra-Medium.ttf</string>
+		<string>Alkatra-Regular.ttf</string>
+		<string>Alkatra-SemiBold.ttf</string>
 	</array>
 </dict>
 </plist>
