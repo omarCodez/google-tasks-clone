@@ -6,6 +6,8 @@ import {SafeAreaView, TouchableOpacity, Text, View, Image} from 'react-native';
 import {StarredTabScreen, TasksTabScreen} from './tabs';
 import IonIcon from 'react-native-vector-icons/Ionicons';
 import EvilIcon from 'react-native-vector-icons/EvilIcons';
+import MatComIcon from 'react-native-vector-icons/MaterialCommunityIcons';
+import OctIcon from 'react-native-vector-icons/Octicons';
 
 const HomeTab = createMaterialTopTabNavigator();
 
@@ -32,7 +34,7 @@ const HomeScreen = () => {
             tabBarShowLabel: false,
             tabBarIcon: ({focused, color}) => {
               return (
-                <View>
+                <View className="">
                   <EvilIcon name="star" size={30} />
                 </View>
               );
@@ -44,10 +46,29 @@ const HomeScreen = () => {
           component={TasksTabScreen}
           options={{
             tabBarShowLabel: false,
-            tabBarItemStyle: {width: '80%'},
+            tabBarItemStyle: {width: 80},
           }}
         />
       </HomeTab.Navigator>
+      <View className="bg-gray-200 px-5 py-3 flex-row justify-between items-center">
+        <View className="flex-row space-x-5">
+          <TouchableOpacity>
+            <IonIcon name="ios-list-sharp" size={20} />
+          </TouchableOpacity>
+
+          <TouchableOpacity className="transform rotate-90">
+            <OctIcon name="arrow-switch" size={20} />
+          </TouchableOpacity>
+
+          <TouchableOpacity>
+            <MatComIcon name="dots-horizontal" size={20} />
+          </TouchableOpacity>
+        </View>
+
+        <TouchableOpacity className="bg-blue-200 p-3 rounded-md">
+          <IonIcon name="ios-add-outline" size={28} />
+        </TouchableOpacity>
+      </View>
     </SafeAreaView>
   );
 };

@@ -6,3 +6,6 @@ classNames -- showing error. (Nativewind)
 x13t0n9yvz9g
 Phoenix Nova
 09041175806
+
+react-native-reanimated --
+had to update cmake.

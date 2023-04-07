@@ -12,10 +12,17 @@ module.exports = {
           '@/components': 'src/components',
           '@/constants': 'src/constants',
           '@/screens': 'src/screens',
+          '@/sheets': ['src/sheets'],
+          '@/navigations': ['src/navigations'],
         },
       },
     ],
-    'react-native-reanimated/plugin',
+    [
+      'react-native-reanimated/plugin',
+      {
+        relativeSourceLocation: true,
+      },
+    ],
   ],
 };
 
